@@ -94,3 +94,26 @@ h1
     bottom: 100px;
     right: 50px;
 }
+.signup-body p button#submit {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    border: none;
+    color: whitesmoke;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.signup-body p button#submit:hover {
+    background: linear-gradient(to right, #2ecc71, #3498db);
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+.signup-body p button#submit:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
